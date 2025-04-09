@@ -6,6 +6,8 @@ function Todo() {
 
     const {todo, setTodo, todos, setTodos, updateTodo, setUpdateTodo, indexUpdate, setIndexUpdate} = useContext(TodoContext)
     
+
+    
     function handleTodo(e){
     e.preventDefault() 
     if(todo.trim() === ""){
